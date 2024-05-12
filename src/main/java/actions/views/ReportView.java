@@ -43,6 +43,10 @@ public class ReportView {
      */
     private String content;
 
+    private String clockIn;
+
+    private String clockOut;
+
     /**
      * 登録日時
      */
@@ -52,4 +56,6 @@ public class ReportView {
      * 更新日時
      */
     private LocalDateTime updatedAt;
+
+
 }
